@@ -1,0 +1,78 @@
+#include <LiquidCrystal.h>
+#include "DHT.h"
+
+// Configurazione Pin
+#define DHTPIN 2      // Il tuo sensore è qui
+#define DHTTYPE DHT11
+#define PIN_BUZZER 9
+#define PIN_BUTTON 7
+#define LED_VERDE 12
+#define LED_ROSSO 13
+
+// Inizializzazione LCD (RS, E, D4, D5, D6, D7)
+// Notare che i pin dati ora sono 6, 5, 4, 3
+LiquidCrystal lcd(11, 10, 6, 5, 4, 3);
+DHT dht(DHTPIN, DHTTYPE);
+
+bool lcdAcceso = true;
+int ultimoStatoPulsante = HIGH;
+
+void setup() {
+  pinMode(LED_VERDE, OUTPUT);
+  pinMode(LED_ROSSO, OUTPUT);
+  pinMode(PIN_BUZZER, OUTPUT);
+  pinMode(PIN_BUTTON, INPUT_PULLUP);
+  
+  lcd.begin(16, 2);
+  dht.begin();
+  
+  lcd.print("Sistema Pronto");
+  delay(1500);
+  lcd.clear();
+}
+
+void loop() {
+  // 1. Logica Pulsante (Toggle ON/OFF)
+  int statoPulsante = digitalRead(PIN_BUTTON);
+  if (statoPulsante == LOW && ultimoStatoPulsante == HIGH) {
+    lcdAcceso = !lcdAcceso;
+    delay(50); // Debounce
+  }
+  ultimoStatoPulsante = statoPulsante;
+
+  // 2. Lettura Sensore
+  float t = dht.readTemperature();
+  if (isnan(t)) return;
+
+  // 3. Controllo Allarme (LED + Buzzer)
+  if (t > 25.0) {
+    digitalWrite(LED_ROSSO, HIGH);
+    digitalWrite(LED_VERDE, LOW);
+    tone(PIN_BUZZER, 1000); // Suona solo se sopra 25 gradi
+  } else {
+    digitalWrite(LED_ROSSO, LOW);
+    digitalWrite(LED_VERDE, HIGH);
+    noTone(PIN_BUZZER);
+  }
+
+  // 4. Visualizzazione LCD
+  if (lcdAcceso) {
+    lcd.display();
+    lcd.setCursor(0, 0);
+    lcd.print("Temp: ");
+    lcd.print(t, 1);
+    lcd.print(" C  ");
+    
+    lcd.setCursor(0, 1);
+    if (t > 25.0) {
+      lcd.print("ALLARME CALDO! ");
+    } else {
+      lcd.print("Stato: OK      ");
+    }
+  } else {
+    lcd.noDisplay(); // Nasconde il testo
+    noTone(PIN_BUZZER); // Per sicurezza spegniamo il buzzer se "dorme"
+  }
+
+  delay(200);
+}
