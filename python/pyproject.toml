@@ -1,0 +1,12 @@
+[project]
+name = "monitoraggio-energetico"
+version = "1.0.0"
+description = "Sistema di monitoraggio efficienza energetica - UdA Sostenibilità Ambientale"
+requires-python = ">=3.10"
+dependencies = [
+    "pyserial>=3.5",
+    "dearpygui>=1.9.0",
+]
+
+[project.scripts]
+monitoraggio = "app:main"
