@@ -1,6 +1,14 @@
-# Sistema di Monitoraggio Efficienza Energetica
+# 🌡️ Sistema di Monitoraggio Efficienza Energetica
+
+COMPONENTI GRUPPO: ALBO, GROSSI, TULGARA
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Arduino](https://img.shields.io/badge/Arduino-Uno-blue.svg)](https://www.arduino.cc/)
+[![Python](https://img.shields.io/badge/Python-3.10+-yellow.svg)](https://www.python.org/)
 
 **UdA Sostenibilità Ambientale** - Sistema di monitoraggio parametri ambientali con paradigma produttore-consumatore.
+
+> 📚 **[Documentazione Completa](docs/README.md)** | 🔧 **[Guida Installazione](docs/Installazione.md)** | ❓ **[Troubleshooting](docs/Troubleshooting.md)**
 
 ## Architettura
 
@@ -72,3 +80,35 @@ uv run app.py
 - **Seriale**: Pacchetti `temp,umid\n` a 9600 baud
 - **Python**: Thread + Queue per disaccoppiamento I/O e GUI
 - **Storage**: CSV con campionamento ogni 10 secondi
+
+---
+
+## 📚 Documentazione
+
+| Documento | Descrizione |
+|-----------|-------------|
+| [🏠 Home](docs/Home.md) | Panoramica del progetto |
+| [🔧 Installazione](docs/Installazione.md) | Setup completo passo-passo |
+| [🔌 Hardware](docs/Hardware.md) | Schema collegamenti |
+| [💻 Arduino](docs/Arduino.md) | Spiegazione firmware |
+| [🐍 Python](docs/Python.md) | Guida applicazione desktop |
+| [❓ Troubleshooting](docs/Troubleshooting.md) | Risoluzione problemi |
+| [🤝 Contribuire](docs/Contribuire.md) | Come partecipare |
+
+---
+
+## 📄 Licenza
+
+Questo progetto è rilasciato sotto licenza **MIT** - vedi il file [LICENSE](LICENSE) per i dettagli.
+
+---
+
+## 🤝 Contribuire
+
+I contributi sono benvenuti! Leggi la [guida per contribuire](docs/Contribuire.md) per iniziare.
+
+---
+
+<p align="center">
+  Realizzato con ❤️ per l'<strong>UdA Sostenibilità Ambientale</strong>
+</p>
