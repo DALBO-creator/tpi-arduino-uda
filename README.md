@@ -1,4 +1,4 @@
-# 🌡️ Sistema di Monitoraggio Efficienza Energetica
+# Sistema di Monitoraggio Efficienza Energetica
 
 COMPONENTI GRUPPO: ALBO, GROSSI, TULGARA
 
@@ -8,7 +8,7 @@ COMPONENTI GRUPPO: ALBO, GROSSI, TULGARA
 
 **UdA Sostenibilità Ambientale** - Sistema di monitoraggio parametri ambientali con paradigma produttore-consumatore.
 
-> 📚 **[Documentazione Completa](docs/README.md)** | 🔧 **[Guida Installazione](docs/Installazione.md)** | ❓ **[Troubleshooting](docs/Troubleshooting.md)**
+> **[Documentazione Completa](docs/README.md)** | **[Guida Installazione](docs/Installazione.md)** | **[Troubleshooting](docs/Troubleshooting.md)**
 
 ## Architettura
 
@@ -83,32 +83,32 @@ uv run app.py
 
 ---
 
-## 📚 Documentazione
+## Documentazione
 
 | Documento | Descrizione |
 |-----------|-------------|
-| [🏠 Home](docs/Home.md) | Panoramica del progetto |
-| [🔧 Installazione](docs/Installazione.md) | Setup completo passo-passo |
-| [🔌 Hardware](docs/Hardware.md) | Schema collegamenti |
-| [💻 Arduino](docs/Arduino.md) | Spiegazione firmware |
-| [🐍 Python](docs/Python.md) | Guida applicazione desktop |
-| [❓ Troubleshooting](docs/Troubleshooting.md) | Risoluzione problemi |
-| [🤝 Contribuire](docs/Contribuire.md) | Come partecipare |
+| [Home](docs/Home.md) | Panoramica del progetto |
+| [Installazione](docs/Installazione.md) | Setup completo passo-passo |
+| [Hardware](docs/Hardware.md) | Schema collegamenti |
+| [Arduino](docs/Arduino.md) | Spiegazione firmware |
+| [Python](docs/Python.md) | Guida applicazione desktop |
+| [Troubleshooting](docs/Troubleshooting.md) | Risoluzione problemi |
+| [Contribuire](docs/Contribuire.md) | Come partecipare |
 
 ---
 
-## 📄 Licenza
+## Licenza
 
 Questo progetto è rilasciato sotto licenza **MIT** - vedi il file [LICENSE](LICENSE) per i dettagli.
 
 ---
 
-## 🤝 Contribuire
+## Contribuire
 
 I contributi sono benvenuti! Leggi la [guida per contribuire](docs/Contribuire.md) per iniziare.
 
 ---
 
 <p align="center">
-  Realizzato con ❤️ per l'<strong>UdA Sostenibilità Ambientale</strong>
+  Realizzato con amore per l'<strong>UdA Sostenibilità Ambientale</strong>
 </p>

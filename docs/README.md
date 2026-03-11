@@ -1,8 +1,8 @@
-# 📚 Wiki - Sistema di Monitoraggio Efficienza Energetica
+# Wiki - Sistema di Monitoraggio Efficienza Energetica
 
 Benvenuto nella documentazione ufficiale del progetto!
 
-## 📋 Indice
+## Indice
 
 1. [Home](Home.md) - Panoramica del progetto
 2. [Guida Installazione](Installazione.md) - Setup completo passo-passo
@@ -14,7 +14,7 @@ Benvenuto nella documentazione ufficiale del progetto!
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1. Clona il repository
@@ -31,4 +31,4 @@ uv run app.py
 
 ---
 
-📝 **Licenza**: MIT - Vedi [LICENSE](../LICENSE) per dettagli
+**Licenza**: MIT - Vedi [LICENSE](../LICENSE) per dettagli

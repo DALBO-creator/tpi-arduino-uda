@@ -1,10 +1,10 @@
-# 💻 Codice Arduino
+# Codice Arduino
 
 Spiegazione dettagliata del firmware per Arduino.
 
 ---
 
-## 📄 File: `monitoraggio.ino`
+## File: `monitoraggio.ino`
 
 ### Librerie Utilizzate
 
@@ -15,7 +15,7 @@ Spiegazione dettagliata del firmware per Arduino.
 
 ---
 
-## ⚙️ Configurazione (Costanti)
+## Configurazione (Costanti)
 
 ```cpp
 #define DHT_PIN 8        // Pin dati del sensore
@@ -35,7 +35,7 @@ Per cambiare le soglie di comfort, modifica:
 
 ---
 
-## 🔧 Funzione `setup()`
+## Funzione `setup()`
 
 Eseguita **una sola volta** all'avvio:
 
@@ -66,7 +66,7 @@ void setup() {
 
 ---
 
-## 🔄 Funzione `loop()`
+## Funzione `loop()`
 
 Eseguita **continuamente** dopo il setup:
 
@@ -77,7 +77,7 @@ if (millis() - ultimaLettura < INTERVALLO) return;
 ultimaLettura = millis();
 ```
 
-> 💡 Usiamo `millis()` invece di `delay()` per non bloccare l'esecuzione.
+> Usiamo `millis()` invece di `delay()` per non bloccare l'esecuzione.
 
 ### Lettura Sensore
 
@@ -139,7 +139,7 @@ else
 
 ---
 
-## 📊 Diagramma di Flusso
+## Diagramma di Flusso
 
 ```
         ┌─────────────┐
@@ -182,7 +182,7 @@ else
 
 ---
 
-## 🔬 Debug e Test
+## Debug e Test
 
 ### Monitor Seriale
 
@@ -204,7 +204,7 @@ Per testare rapidamente le soglie:
 
 ---
 
-## 📝 Personalizzazioni Suggerite
+## Personalizzazioni Suggerite
 
 | Modifica | Come |
 |----------|------|
@@ -215,4 +215,4 @@ Per testare rapidamente le soglie:
 
 ---
 
-[⬅️ Hardware](Hardware.md) | [➡️ Applicazione Python](Python.md)
+[Hardware](Hardware.md) | [Applicazione Python](Python.md)

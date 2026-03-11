@@ -1,10 +1,10 @@
-# 🔧 Risoluzione Problemi
+# Risoluzione Problemi
 
 Guida alle soluzioni dei problemi più comuni.
 
 ---
 
-## 🔴 Problemi Arduino
+## Problemi Arduino
 
 ### Il LED non si accende
 
@@ -67,7 +67,7 @@ K   → GND
 
 ---
 
-## 🔴 Problemi Python
+## Problemi Python
 
 ### "ModuleNotFoundError: No module named 'serial'"
 
@@ -152,7 +152,7 @@ for p in serial.tools.list_ports.comports():
 
 ---
 
-## 🔴 Problemi di Comunicazione
+## Problemi di Comunicazione
 
 ### Dati corrotti o illeggibili
 
@@ -175,7 +175,7 @@ for p in serial.tools.list_ports.comports():
 
 ---
 
-## 📋 Checklist di Debug
+## Checklist di Debug
 
 ### Prima di Accendere
 - [ ] Tutti i collegamenti sono corretti
@@ -203,7 +203,7 @@ pip list | findstr "serial\|dearpygui"
 
 ---
 
-## 📞 Ancora Problemi?
+## Ancora Problemi?
 
 Se non trovi la soluzione:
 
@@ -218,4 +218,4 @@ Se non trovi la soluzione:
 
 ---
 
-[⬅️ Applicazione Python](Python.md) | [➡️ Contribuire](Contribuire.md)
+[Applicazione Python](Python.md) | [Contribuire](Contribuire.md)

@@ -1,4 +1,4 @@
-# 🏠 Home - Panoramica del Progetto
+# Home - Panoramica del Progetto
 
 ## Cos'è questo progetto?
 
@@ -8,7 +8,7 @@ Permette di monitorare in tempo reale temperatura e umidità di un ambiente, vis
 
 ---
 
-## 🎯 Obiettivi Didattici
+## Obiettivi Didattici
 
 - Comprendere il paradigma **Produttore-Consumatore**
 - Imparare la comunicazione **seriale** tra dispositivi
@@ -18,7 +18,7 @@ Permette di monitorare in tempo reale temperatura e umidità di un ambiente, vis
 
 ---
 
-## 🏗️ Architettura del Sistema
+## Architettura del Sistema
 
 ```
 ┌─────────────────────────┐          ┌─────────────────────────┐
@@ -43,7 +43,7 @@ Permette di monitorare in tempo reale temperatura e umidità di un ambiente, vis
 
 ---
 
-## 📊 Funzionalità Principali
+## Funzionalità Principali
 
 | Funzionalità | Descrizione |
 |--------------|-------------|
@@ -55,36 +55,36 @@ Permette di monitorare in tempo reale temperatura e umidità di un ambiente, vis
 
 ---
 
-## 📁 Struttura del Progetto
+## Struttura del Progetto
 
 ```
 tpi-arduino-uda/
-├── 📁 arduino/
-│   └── 📁 monitoraggio/
-│       └── 📄 monitoraggio.ino    # Firmware Arduino
-├── 📁 python/
-│   ├── 📄 app.py                  # Applicazione principale
-│   ├── 📄 pyproject.toml          # Dipendenze Python
-│   ├── 📄 uv.lock                 # Lock delle versioni
-│   └── 📄 dati_sensore.csv        # Dati raccolti
-├── 📁 docs/                       # Documentazione
-├── 📄 README.md                   # Readme principale
-└── 📄 LICENSE                     # Licenza MIT
+├── arduino/
+│   └── monitoraggio/
+│       └── monitoraggio.ino    # Firmware Arduino
+├── python/
+│   ├── app.py                  # Applicazione principale
+│   ├── pyproject.toml          # Dipendenze Python
+│   ├── uv.lock                 # Lock delle versioni
+│   └── dati_sensore.csv        # Dati raccolti
+├── docs/                       # Documentazione
+├── README.md                   # Readme principale
+└── LICENSE                     # Licenza MIT
 ```
 
 ---
 
-## ⚡ Soglie di Comfort
+## Soglie di Comfort
 
 | Stato | Temperatura | LED | Significato |
 |-------|-------------|-----|-------------|
-| 🔵 **Stand-by** | < 18°C | Spenti | Ambiente freddo |
-| 🟢 **Comfort** | 18-25°C | Verde | Temperatura ottimale |
-| 🔴 **Critico** | > 25°C | Rosso | Spreco energetico |
+| **Stand-by** | < 18°C | Spenti | Ambiente freddo |
+| **Comfort** | 18-25°C | Verde | Temperatura ottimale |
+| **Critico** | > 25°C | Rosso | Spreco energetico |
 
 ---
 
-## 📖 Prossimi Passi
+## Prossimi Passi
 
 1. Leggi la [Guida all'Installazione](Installazione.md)
 2. Configura l'[Hardware](Hardware.md)
@@ -93,4 +93,4 @@ tpi-arduino-uda/
 
 ---
 
-[➡️ Vai alla Guida Installazione](Installazione.md)
+[Vai alla Guida Installazione](Installazione.md)

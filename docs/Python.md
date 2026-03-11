@@ -1,16 +1,16 @@
-# 🐍 Applicazione Python
+# Applicazione Python
 
 Guida completa all'applicazione desktop per il monitoraggio.
 
 ---
 
-## 📄 File: `app.py`
+## File: `app.py`
 
 L'applicazione Python funge da **consumatore** nel pattern produttore-consumatore, ricevendo i dati da Arduino e visualizzandoli.
 
 ---
 
-## 📦 Dipendenze
+## Dipendenze
 
 ```toml
 [project]
@@ -32,7 +32,7 @@ pip install pyserial dearpygui
 
 ---
 
-## ⚙️ Configurazione
+## Configurazione
 
 All'inizio del file `app.py`:
 
@@ -55,7 +55,7 @@ SOGLIA_MAX = 25.0               # Temperatura massima comfort
 
 ---
 
-## 🏗️ Architettura dell'Applicazione
+## Architettura dell'Applicazione
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -85,7 +85,7 @@ SOGLIA_MAX = 25.0               # Temperatura massima comfort
 
 ---
 
-## 🔑 Componenti Principali
+## Componenti Principali
 
 ### 1. Rilevamento Automatico Porta
 
@@ -154,7 +154,7 @@ L'interfaccia include:
 
 ---
 
-## 🖼️ Screenshot Interfaccia
+## Screenshot Interfaccia
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -186,7 +186,7 @@ L'interfaccia include:
 
 ---
 
-## 🚀 Avvio dell'Applicazione
+## Avvio dell'Applicazione
 
 ### Metodo 1: Con uv
 
@@ -204,7 +204,7 @@ python app.py
 
 ---
 
-## 📊 Formato File CSV
+## Formato File CSV
 
 Il file `dati_sensore.csv` contiene:
 
@@ -224,7 +224,7 @@ Puoi analizzare i dati con:
 
 ---
 
-## 🔧 Personalizzazioni
+## Personalizzazioni
 
 | Modifica | File | Riga |
 |----------|------|------|
@@ -235,7 +235,7 @@ Puoi analizzare i dati con:
 
 ---
 
-## 🐛 Debug
+## Debug
 
 ### Abilitare Log Dettagliati
 
@@ -256,4 +256,4 @@ for p in serial.tools.list_ports.comports():
 
 ---
 
-[⬅️ Codice Arduino](Arduino.md) | [➡️ Risoluzione Problemi](Troubleshooting.md)
+[Codice Arduino](Arduino.md) | [Risoluzione Problemi](Troubleshooting.md)

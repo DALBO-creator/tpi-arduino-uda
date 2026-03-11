@@ -1,10 +1,10 @@
-# 🔌 Schema Hardware
+# Schema Hardware
 
 Guida completa ai collegamenti elettronici del progetto.
 
 ---
 
-## 📦 Lista Componenti
+## Lista Componenti
 
 | Componente | Quantità | Note |
 |------------|----------|------|
@@ -21,7 +21,7 @@ Guida completa ai collegamenti elettronici del progetto.
 
 ---
 
-## 📍 Tabella Collegamenti
+## Tabella Collegamenti
 
 ### Sensore DHT11
 
@@ -31,7 +31,7 @@ Guida completa ai collegamenti elettronici del progetto.
 | DATA | 8 | Segnale dati |
 | GND (-) | GND | Massa |
 
-> 💡 **Suggerimento**: Alcuni moduli DHT11 hanno già la resistenza pull-up integrata.
+> **Suggerimento**: Alcuni moduli DHT11 hanno già la resistenza pull-up integrata.
 
 ### LED Indicatori
 
@@ -61,7 +61,7 @@ Guida completa ai collegamenti elettronici del progetto.
 
 ---
 
-## 📐 Schema di Collegamento
+## Schema di Collegamento
 
 ```
                     ARDUINO UNO
@@ -85,7 +85,7 @@ Guida completa ai collegamenti elettronici del progetto.
 
 ---
 
-## 🖼️ Schema Fritzing
+## Schema Fritzing
 
 ```
          DHT11
@@ -120,7 +120,7 @@ Guida completa ai collegamenti elettronici del progetto.
 
 ---
 
-## ⚠️ Note Importanti
+## Note Importanti
 
 ### Contrasto LCD
 Se il display non mostra caratteri visibili:
@@ -138,7 +138,7 @@ Se il display non mostra caratteri visibili:
 
 ---
 
-## 🔍 Verifica Collegamenti
+## Verifica Collegamenti
 
 Prima di accendere, controlla:
 
@@ -149,4 +149,4 @@ Prima di accendere, controlla:
 
 ---
 
-[⬅️ Installazione](Installazione.md) | [➡️ Codice Arduino](Arduino.md)
+[Installazione](Installazione.md) | [Codice Arduino](Arduino.md)

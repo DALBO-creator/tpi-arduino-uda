@@ -1,10 +1,10 @@
-# 🤝 Contribuire al Progetto
+# Contribuire al Progetto
 
 Grazie per l'interesse a contribuire! Questa guida spiega come partecipare.
 
 ---
 
-## 📜 Codice di Condotta
+## Codice di Condotta
 
 - Sii rispettoso e costruttivo
 - Accetta feedback con apertura
@@ -13,7 +13,7 @@ Grazie per l'interesse a contribuire! Questa guida spiega come partecipare.
 
 ---
 
-## 🐛 Segnalare Bug
+## Segnalare Bug
 
 ### Prima di Segnalare
 
@@ -52,7 +52,7 @@ Cosa succede invece.
 
 ---
 
-## 💡 Proporre Miglioramenti
+## Proporre Miglioramenti
 
 ### Idee Benvenute
 
@@ -71,7 +71,7 @@ Cosa succede invece.
 
 ---
 
-## 🔧 Contribuire Codice
+## Contribuire Codice
 
 ### Setup Sviluppo
 
@@ -124,7 +124,7 @@ Closes #12
 
 ---
 
-## 📝 Contribuire Documentazione
+## Contribuire Documentazione
 
 La documentazione è importante quanto il codice!
 
@@ -145,7 +145,7 @@ La documentazione è importante quanto il codice!
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Prima di inviare una PR:
 
@@ -160,7 +160,7 @@ Prima di inviare una PR:
 
 ---
 
-## 📋 Template Pull Request
+## Template Pull Request
 
 ```markdown
 ## Descrizione
@@ -188,7 +188,7 @@ Breve descrizione delle modifiche.
 
 ---
 
-## 🎓 Per Studenti
+## Per Studenti
 
 Questo progetto è pensato per l'apprendimento. Se sei uno studente:
 
@@ -207,16 +207,16 @@ Questo progetto è pensato per l'apprendimento. Se sei uno studente:
 
 ---
 
-## 📜 Licenza
+## Licenza
 
 Contribuendo a questo progetto, accetti che il tuo contributo sia rilasciato sotto la stessa licenza MIT del progetto.
 
 ---
 
-## 🙏 Ringraziamenti
+## Ringraziamenti
 
 Grazie a tutti i contributori che hanno reso possibile questo progetto!
 
 ---
 
-[⬅️ Troubleshooting](Troubleshooting.md) | [🏠 Home](Home.md)
+[Troubleshooting](Troubleshooting.md) | [Home](Home.md)

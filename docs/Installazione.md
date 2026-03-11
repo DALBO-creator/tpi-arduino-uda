@@ -1,10 +1,10 @@
-# 🔧 Guida all'Installazione
+# Guida all'Installazione
 
 Questa guida ti accompagnerà nell'installazione completa del sistema.
 
 ---
 
-## 📋 Prerequisiti
+## Prerequisiti
 
 ### Software Necessario
 
@@ -25,7 +25,7 @@ Questa guida ti accompagnerà nell'installazione completa del sistema.
 
 ---
 
-## 1️⃣ Installazione Arduino
+## 1. Installazione Arduino
 
 ### Passo 1: Installa le Librerie
 
@@ -48,7 +48,7 @@ Cerca e installa:
 
 ---
 
-## 2️⃣ Installazione Python
+## 2. Installazione Python
 
 ### Opzione A: Con uv (Consigliato)
 
@@ -87,7 +87,7 @@ python app.py
 
 ---
 
-## 3️⃣ Configurazione della Porta Seriale
+## 3. Configurazione della Porta Seriale
 
 L'applicazione Python cerca automaticamente la porta Arduino. Se non funziona:
 
@@ -108,7 +108,7 @@ PORTA_SERIALE = "COM7"  # Cambia con la tua porta
 
 ---
 
-## 4️⃣ Verifica dell'Installazione
+## 4. Verifica dell'Installazione
 
 ### Test Arduino
 
@@ -124,7 +124,7 @@ PORTA_SERIALE = "COM7"  # Cambia con la tua porta
 
 ---
 
-## ⚠️ Risoluzione Problemi Comuni
+## Risoluzione Problemi Comuni
 
 | Problema | Soluzione |
 |----------|-----------|
@@ -137,4 +137,4 @@ Per problemi più specifici, consulta la [Guida Troubleshooting](Troubleshooting
 
 ---
 
-[⬅️ Home](Home.md) | [➡️ Schema Hardware](Hardware.md)
+[Home](Home.md) | [Schema Hardware](Hardware.md)
